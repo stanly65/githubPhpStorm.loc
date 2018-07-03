@@ -12,4 +12,6 @@ print_r( $arr);
 
 require_once ('Students.php');
 $a = getSortedList($arr);
+echo 'Alphabetical sort : ';
+echo "\n\r";
 print_r($a);
