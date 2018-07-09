@@ -15,3 +15,5 @@ $a = getSortedList($arr);
 echo 'Alphabetical sort : ';
 echo "\n\r";
 print_r($a);
+$arr = addNewStudent($arr, 'Mincho');
+print_r($arr);
